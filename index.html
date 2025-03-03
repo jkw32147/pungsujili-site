@@ -1,30 +1,60 @@
-{
-  "rewrites": [
-    {
-      "source": "/",
-      "destination": "/index.html"
-    }
-  ],
-  "redirects": [
-    {
-      "source": "http://www.pungsujili.com",
-      "destination": "https://www.pungsujili.com",
-      "statusCode": 308
-    },
-    {
-      "source": "http://pungsujili.com",
-      "destination": "https://www.pungsujili.com",
-      "statusCode": 308
-    }
-  ],
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        { "key": "Cache-Control", "value": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0, s-maxage=0" },
-        { "key": "Pragma", "value": "no-cache" },
-        { "key": "Expires", "value": "0" },
-        { "key": "Surrogate-Control", "value": "no-store" }
-      ]
-    }
-  ]}
+<!DOCTYPE html><html lang="ko"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>풍수지리 - Personal Branding</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5e1c8; /* 연한 갈색 배경 */
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            margin: 10% auto;
+            width: 80%;
+            max-width: 500px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            font-size: 1.8em;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+        .phone-number {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #333;
+            margin-top: 10px;
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            font-size: 1.2em;
+            color: white;
+            background-color: #333;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .button:hover {
+            background-color: #555;
+        }
+    </style></head><body>
+
+    <div class="container">
+        <h1>안녕하세요! 풍수지리 사이트에 오신 것을 환영합니다.</h1>
+        <p>이곳은 나의 퍼스널 브랜딩 웹사이트입니다.<br>문의 사항이 있으면 아래 버튼을 눌러 주세요.</p>
+        
+        <a href="tel:01055708675" class="button">전화 문의하기</a>
+        <p class="phone-number">📞 010-5570-8675</p>
+    </div>
+
+</body></html>
