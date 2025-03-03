@@ -1,4 +1,10 @@
 {
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/index.html"
+    }
+  ],
   "redirects": [
     {
       "source": "http://www.pungsujili.com",
@@ -9,12 +15,6 @@
       "source": "http://pungsujili.com",
       "destination": "https://www.pungsujili.com",
       "statusCode": 308
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/",
-      "destination": "/index.html"
     }
   ],
   "headers": [
@@ -29,3 +29,4 @@
     }
   ]
 }
+
