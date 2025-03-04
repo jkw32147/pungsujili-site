@@ -1,4 +1,5 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+  "redirects": [
+    { "source": "http://pungsujili.com", "destination": "https://pungsujili.com", "statusCode": 301 },
+    { "source": "http://www.pungsujili.com", "destination": "https://www.pungsujili.com", "statusCode": 301 }
   ]}
