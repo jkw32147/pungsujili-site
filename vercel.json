@@ -4,5 +4,4 @@
       "source": "/feedback/:path*",
       "destination": "/api/feedback/general"
     }
-  ]
-}
+  ]}
