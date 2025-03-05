@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/feedback/:path*",
-      "destination": "/api/feedback/general"
+      "source": "/",
+      "destination": "/index.html"
     }
   ]}
