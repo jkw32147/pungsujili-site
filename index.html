@@ -1,8 +1,58 @@
-<!DOCTYPE html><html lang="ko"><head>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>풍수지리</title>
-    <link rel="stylesheet" href="styles.css"></head><body>
+
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(255, 255, 255);
+            color: black;
+            font-size: 20pt; /* Equivalent to Word 20pt */
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Title Section */
+        header h1 {
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Phone Number Link */
+        .phone-link {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .phone-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            body {
+                font-size: 18pt; /* Slightly adjust font size for smaller screens */
+                padding: 15px;
+            }
+        }
+    </style>
+    
+    <script>
+        // Vercel rewrites를 JavaScript로 적용
+        if (window.location.pathname === "/") {
+            window.location.href = "/index.html";
+        }
+    </script>
+</head>
+<body>
     <header>
         <h1>안녕하십니까. 지금은 개발중입니다. 나중에 다시 찾아와주세요!</h1>
     </header>
@@ -14,4 +64,6 @@
     <footer>
         <hr>
         <p>상담 전화: <a href="tel:01055708675" class="phone-link">+82 (10) 5570-8675</a></p>
-    </footer></body></html>
+    </footer>
+</body>
+</html>
