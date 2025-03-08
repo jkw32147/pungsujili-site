@@ -4,7 +4,6 @@
     <title>풍수지리</title>
     
     <style>
-        /* General Styles */
         body {
             font-family: Arial, sans-serif;
             background-color: #FFCB79;
@@ -15,16 +14,14 @@
             padding: 20px;
         }
 
-        /* Title Section */
         header h1 {
             background-color: black;
             color: white;
             padding: 10px;
             margin-bottom: 20px;
-            display: inline-block; /* ✅ 글자 길이에 맞게 박스 크기 조절 */
+            display: inline-block;
         }
 
-        /* Phone Number Link */
         .phone-link {
             text-decoration: none;
             color: black;
@@ -45,7 +42,6 @@
     </style>
 
     <script>
-        // Vercel rewrites를 JavaScript로 적용
         if (window.location.pathname === "/") {
             window.location.href = "/index.html";
         }
