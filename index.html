@@ -1,38 +1,40 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
+<!DOCTYPE html><html lang="ko"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>풍수지리</title>
+    <title>풍수지리</title> 
 
     <style>
-        body{
+        /* General Styles */
+        body {
             font-family: Arial, sans-serif;
             background-color: #E6BC2C;
             color: black;
-            font-size: 20pt; 
+            font-size: 20pt;
             text-align: center;
             margin: 0;
             padding: 20px;
         }
 
-        header h1{
-            background-color: #FFCB79;
+        /* Title Section */
+        header h1 {
+            background-color: rgb(0, 0, 0);
             color: rgb(255, 255, 255);
             padding: 10px;
             margin-bottom: 20px;
         }
 
-        .phone-link{
+        /* Phone Number Link */
+        .phone-link {
             text-decoration: none;
             color: black;
             font-weight: bold;
         }
 
-        .phone-link:hover{
+        .phone-link:hover {
             text-decoration: underline;
         }
 
+        /* Responsive Design */
         @media (max-width: 768px) {
             body {
                 font-size: 18pt;
@@ -40,26 +42,34 @@
             }
         }
     </style>
-    
+
     <script>
-        
+        // Vercel rewrites를 JavaScript로 적용
         if (window.location.pathname === "/") {
             window.location.href = "/index.html";
         }
-    </script>
-</head>
-<body>
+    </script></head><body>
     <header>
-        <h1 style="font-size : 30px;">풍수지리(風水地理)</h1>
+        <h1 style="font-size: 30px;">풍수지리(風水地理)</h1>
     </header>
 
     <main>
-        <p>명당중에 가장 중요한 것은 혈!<br>명당 중에 혈, 명혈(明穴)은 이렇게 찾습니다.<br>산과 물이 만나 방향을 정하여 명당이 되거나<br>주변 형상이 좋은것과 비슷하다 하여 명당이다 란 막연함보다는<br>그 누가 뭐라해도 음택과 양택 모두<br>혈처에, 기맥이 뭉쳐 있는곳을 찾는 것이<br>가장 중요한 것은 더 이상 논할 바 없듯이<br>땅속을 자세히 알고 수맥과 기맥의 도면 까지도 가능하며,<br>모든 것을 의뢰인께서 직접 확인하고, 직접 그 자리를 결정할 수 있는<br>기맥풍수를 소개합니다.<br>땅속의 신비한 명혈(明穴)을 찾는다.</p>
+        <p>
+            명당중에 가장 중요한 것은 혈!<br>
+            명당 중에 혈, 명혈(明穴)은 이렇게 찾습니다.<br>
+            산과 물이 만나 방향을 정하여 명당이 되거나<br>
+            주변 형상이 좋은것과 비슷하다 하여 명당이다 란 막연함보다는<br>
+            그 누가 뭐라해도 음택과 양택 모두<br>
+            혈처에, 기맥이 뭉쳐 있는곳을 찾는 것이<br>
+            가장 중요한 것은 더 이상 논할 바 없듯이<br>
+            땅속을 자세히 알고 수맥과 기맥의 도면 까지도 가능하며,<br>
+            모든 것을 의뢰인께서 직접 확인하고, 직접 그 자리를 결정할 수 있는<br>
+            기맥풍수를 소개합니다.<br>
+            땅속의 신비한 명혈(明穴)을 찾는다.
+        </p>
     </main>
 
     <footer>
         <hr>
         <p>상담 전화: <a href="tel:01055708675" class="phone-link">010-5570-8675</a></p>
-    </footer>
-</body>
-</html>
+    </footer></body></html>
