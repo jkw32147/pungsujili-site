@@ -1,0 +1,29 @@
+/* Apply background image instead of solid color */
+body {
+    background-image: url('background.jpg'); /* Ensure correct path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Ensures full viewport coverage */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Ensure text inside <main> is left-aligned */
+main {
+    text-align: left;
+    padding: 20px; /* Add padding for readability */
+    max-width: 800px;
+    margin: auto; /* Keeps it centered but text is left-aligned */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    main {
+        padding: 15px;
+    }
+    body {
+        background-attachment: fixed; /* Keeps background stable on small screens */
+    }
+}
